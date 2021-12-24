@@ -157,7 +157,7 @@ Age1stCode varchar,
 	/*1*/
 	SELECT gender, age, employment
 	FROM survey_results
-	WHERE age < '25' AND gender = 'Woman' AND employment =
+	WHERE age < '25' AND gender = 'Woman' AND employment = 'Student'
 	GROUP BY gender, age, employment;
 	
 	/*2*/
